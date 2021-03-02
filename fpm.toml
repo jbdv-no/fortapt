@@ -1,0 +1,19 @@
+name = "fortapt"
+version = "0.1.0"
+license = "ISC"
+author = "jbdv-no, Dennis Decker Jensen"
+maintainer = "44500364+jbdv-no@users.noreply.github.com"
+copyright = "2021 jbdv-no, 2015 Dennis Decker Jensen"
+
+[library]
+source-dir="src"
+
+[[test]]
+name="test_examples"
+source-dir="test"
+main="test_examples.f90"
+
+[[executable]]
+name="runtests"
+source-dir="app"
+main="runtests.f90"
