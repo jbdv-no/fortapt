@@ -17,6 +17,6 @@ module int64_m
 
 contains
 
-  include 'is_int.inc'
+  include 'inc/is_int.f90'
 
 end module int64_m

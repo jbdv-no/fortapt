@@ -7,6 +7,7 @@ copyright = "2021 jbdv-no, 2015 Dennis Decker Jensen"
 
 [library]
 source-dir="src"
+include-dir="inc"
 
 [[test]]
 name="test_examples"
@@ -17,3 +18,5 @@ main="test_examples.f90"
 name="runtests"
 source-dir="app"
 main="runtests.f90"
+
+# ~/.local/bin/fpm run --compiler nagfor --flag -g --flag -C=all --flag -O0 -flag -gline -flag -PIC

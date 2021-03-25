@@ -26,8 +26,8 @@ module real128_m
 
 contains
 
-  include 'isabs_real.inc'
-  include 'isnear_real.inc'
-  include 'isrel_real.inc'
+  include 'inc/isabs_real.f90'
+  include 'inc/isnear_real.f90'
+  include 'inc/isrel_real.f90'
 
 end module real128_m
